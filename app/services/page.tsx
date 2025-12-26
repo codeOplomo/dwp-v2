@@ -162,7 +162,7 @@ const Services = () => {
       </section>
 
       {/* Process Section */}
-      <section className="section-padding">
+      <section className="section-padding bg-gray-100">
         <div className="container-wide">
           <FadeIn>
             <div className="text-center mb-16">

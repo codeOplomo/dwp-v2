@@ -221,7 +221,7 @@ const Home = () => {
       </section>
 
       {/* Portfolio Grid Section */}
-      <section id="portfolio" className="section-padding bg-[E6E6E6]">
+      <section id="portfolio" className="section-padding bg-gray-100">
         <div className="container-wide">
           <FadeIn>
             <div className="text-center mb-16">
@@ -263,7 +263,7 @@ const Home = () => {
       </section>
 
       {/* Services Preview Section */}
-      <section className="section-padding bg-[F2F2F2]">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide">
           <FadeIn>
             <div className="text-center mb-16">
@@ -377,7 +377,7 @@ const Home = () => {
       </section>
       
       {/* Partners Section */}
-      <section className="py-16 lg:py-20">
+      <section className="py-16 lg:py-20 bg-gray-100">
         <div className="container-wide px-6 lg:px-12">
           <FadeIn>
             <p className="text-center text-muted-foreground text-sm tracking-widest uppercase mb-10">
