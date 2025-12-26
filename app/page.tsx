@@ -148,7 +148,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <Link href="/services" className="btn-accent">
-              Découvrir nos réalisations
+              Découvrir nos portfolio
               <ArrowRight className="ml-2" size={18} />
             </Link>
           </motion.div>
@@ -156,7 +156,7 @@ const Home = () => {
       </ParallaxVideoHero>
 
       {/* About Preview Section */}
-      <section className="section-padding">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeIn direction="left">
@@ -243,7 +243,7 @@ const Home = () => {
       </section>
 
       {/* Services Preview Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide">
           <FadeIn>
             <div className="text-center mb-16">
@@ -327,7 +327,7 @@ const Home = () => {
       </section>
 
       {/* Certifications Section */}
-      <section className="py-16 lg:py-20 bg-background">
+      <section className="py-16 lg:py-20 bg-gray-200">
         <div className="container-wide px-6 lg:px-12">
           <FadeIn>
             <div className="text-center">
@@ -378,7 +378,7 @@ const Home = () => {
 
 
       {/* CTA Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide text-center">
           <FadeIn>
             <div className="flex justify-center">

@@ -86,7 +86,7 @@ const Services = () => {
       </ParallaxHero>
 
       {/* Services Grid */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide">
           <FadeIn>
             <div className="text-center mb-16">
@@ -188,7 +188,7 @@ const Services = () => {
       </section>
 
       {/* Team Testimonial */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gray-200">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeIn direction="left">
