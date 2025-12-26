@@ -74,12 +74,30 @@ const testimonials = [
 ];
 
 const partners = [
-  "Herman Miller",
-  "Knoll",
-  "Steelcase",
-  "Vitra",
-  "B&B Italia",
-  "Cassina",
+  {
+    name: "OCP",
+    image: "/dwp-part-6.png",
+  },
+  {
+    name: "masen",
+    image: "/dwp-part-1.png",
+  },
+  {
+    name: "lamatem",
+    image: "/dwp-part-2.png",
+  },
+  {
+    name: "CMC",
+    image: "/dwp-part-3.png",
+  },
+  {
+    name: "aefe",
+    image: "/dwp-part-4.png",
+  },
+  {
+    name: "ABS",
+    image: "/dwp-part-5.png",
+  },
 ];
 
 const Home = () => {
@@ -366,10 +384,14 @@ const Home = () => {
           </FadeIn>
           <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-16">
             {partners.map((partner, index) => (
-              <FadeIn key={partner} delay={index * 0.05}>
-                <span className="text-muted-foreground/50 font-serif text-xl lg:text-2xl tracking-wider hover:text-foreground transition-colors duration-300 cursor-default">
-                  {partner}
-                </span>
+              <FadeIn key={partner.name} delay={index * 0.05}>
+                <Image
+                  src={partner.image}
+                  alt={partner.name}
+                  width={150}
+                  height={59}
+                  className="opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-default"
+                />
               </FadeIn>
             ))}
           </div>
