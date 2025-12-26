@@ -359,14 +359,14 @@ const Home = () => {
               <h2 className="heading-section mb-8">Nos engagements qualité</h2>
               <div className="flex justify-center items-center gap-12">
                 <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
-                    <Image src="/dwp-iso.png" alt="ISO Certification" width={90} height={90} />
+                  <div className="w-[150px] h-[150px] mx-auto mb-4 flex items-center justify-center">
+                    <Image src="/dwp-iso.png" alt="ISO Certification" width={150} height={150} />
                   </div>
                   <p className="text-sm">Certification ISO</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
-                    <Image src="/dwp-HQE.webp" alt="HQE Certification" width={90} height={90} />
+                  <div className="w-[150px] h-[150px] mx-auto mb-4 flex items-center justify-center">
+                    <Image src="/dwp-HQE.webp" alt="HQE Certification" width={150} height={150} />
                   </div>
                   <p className="text-sm">Haute Qualité Environnementale</p>
                 </div>
